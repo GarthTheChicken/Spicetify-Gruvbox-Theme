@@ -333,6 +333,9 @@ button.switch {
 .main-trackList-trackListRow {
 /*border-radius: var(--border-radius-2);*/
 border-bottom:  1px solid var(--spice-button-disabled) !important;
+height:auto !important;
+padding-bottom:6px !important;
+padding-top:4px !important;
 }
 
 .main-trackList-trackListRow:hover {
@@ -853,8 +856,8 @@ position: absolute;
 /* fonts */
 *{
   font-family:Bebas Neue,Roboto Mono Medium !important; 
-  font-size:16px !important; line-height:1.3 !important;
-  font-weight:700 !important 
+  font-size:17px !important; line-height:1.3 !important;
+  font-weight:bold !important 
 }
 
 h1,h2.fyWveH, .main-entityHeader-topbarTitle{
@@ -941,20 +944,20 @@ button span.iCAgWT, span.iCAgWT{
 }
 
 .main-trackList-rowSubTitle a{
-  font-family:Roboto Condensed,Ubuntu Condensed !important; 
+  font-family:Roboto Medium,Ubuntu Condensed !important; 
   font-size:12px !important; 
   font-weight:400 !important;
 }
 
 .main-trackList-rowSectionVariable a, .main-trackList-rowSectionVariable span, .main-trackList-rowSectionEnd .main-trackList-rowDuration, .main-trackList-rowPlayCount, .ebHsEf, .cpSTHq a {
-  font-family:Roboto Condensed,Ubuntu Condensed !important; 
+  font-family:Roboto Medium,Ubuntu Condensed !important; 
   font-size:12px !important; 
   font-weight:400 !important;
 }
 
 
 span[title="Explicit"]{
-  font-family:Roboto Condensed,Futura Bk Bt,Ubuntu Condensed !important;
+  font-family:Roboto Medium,Futura Bk Bt,Ubuntu Condensed !important;
   font-size:12px !important;
 }
 
@@ -966,14 +969,16 @@ span[title="Explicit"]{
 
 /* sidebar */
 span.lfGOlT, span.eHCcSU {
-  font-family:/*Bebas Neue*/Roboto Condensed,Ubuntu Condensed !important; 
+  font-family:/*Bebas Neue*/Roboto medium,Ubuntu Condensed !important; 
+  font-smooth:never !important;
+  -webkit-font-smoothing: none !important;
   font-size:12px !important; 
   font-weight:400 !important;
 }
 
 /*artist blurb */
 .CjnwbSTpODW56Gerg7X6,.CjnwbSTpODW56Gerg7X6 p.gAmaez{
-  font-family:Roboto Condensed,Futura Bk BT,Ubuntu Condensed !important; 
+  font-family:Roboto Medium,Futura Bk BT,Ubuntu Condensed !important; 
   font-size:13px !important; 
   font-weight:400 !important;
 }
@@ -1014,3 +1019,14 @@ filter: drop-shadow(0 12px 6px #000000) !important;
 .main-view-container__scroll-node-child-spacer {
   border: 1px solid green !important;
 }
+
+/* Artist and credit popups*/
+.KUUFCMOavSKiLbBMXu0f, .main-trackCreditsModal-container{
+border: 1px solid var(--spice-button-disabled) !important;
+border-radius: 3px !important;
+filter: drop-shadow(0 12px 6px #000000) !important;
+}
+
+/* #main {border-top: 1px solid #000000 !important;} */
+/* *{-webkit-font-smoothing: antialiased !important;
+text-rendering: optimizeSpeed !important;} */
