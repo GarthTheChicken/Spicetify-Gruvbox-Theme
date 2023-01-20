@@ -3,5 +3,5 @@
 
 <p>Mostly working. Mostly.</p>
 
-<p>Requires Bebas Neue and Roboto Condensed</p>
+<p>Requires Bebas Neue and Roboto Medium</p>
 <p>Code based off <a href="https://github.com/spicetify/spicetify-themes/tree/master/Ziro">Ziro</a></p>
